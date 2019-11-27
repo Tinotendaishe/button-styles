@@ -20,7 +20,7 @@ div {
   display: inline-block;
   padding: .4em .75em .3em;
   color: #fff;
-  border: 3px solid;
+  border: 3px solid #000;
   background-color: #333;
 }
 
@@ -47,6 +47,7 @@ div {
 .btn-subtle {
   background-color: #ccc;
   color: #fff;
+  border-color: #fff;
 }
 
 .btn-ghost {
@@ -57,6 +58,7 @@ div {
 .btn-warning {
   background-color: #f33;
   color: #fff;
+  border-color: #fff;
 }
 
 .btn-big {
@@ -65,4 +67,8 @@ div {
 
 .btn-small {
   font-size: .875rem;
+}
+
+.btn-medium {
+  font-size: 1.125rem;
 }
